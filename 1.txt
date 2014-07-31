@@ -1,7 +1,7 @@
 aasd
 
 
-public function insert($table, $column, $value) {
+
     try {
     
     }
