@@ -11,8 +11,3 @@ public function insert($table, $column, $value) {
   }
 
 
-
-
-ggggggg
-
-sdfgdfg
