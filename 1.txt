@@ -1,0 +1,14 @@
+aasd
+
+
+public function insert($table, $column, $value) {
+    try {
+      $this->db->query(sprintf("
+        INSERT INTO %s (%s)
+        VALUES (%s)",
+        $table, $column, $value));
+    }
+    catch (PDOException $e) {
+      return $e->getMessage();
+    }
+  }
